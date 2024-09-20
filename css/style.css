@@ -287,7 +287,7 @@ h1, h2, h3, h4, h5, h6 {
 .overlay {
     position: fixed;
     display: block; 
-    background: #669999;
+    background: #A7C7E7;
     top: 0;
     border: 0;
     left: 0;
@@ -506,7 +506,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
 
 .story { 
 	margin-top: 30px;
-	color: #669999;
+	color: #A7C7E7;
 	font-size: 16px;
 	text-align: left;
 }
@@ -703,7 +703,7 @@ figure.effect-julia:hover p {
 	-webkit-transform-origin: left top 0;
 	transform-origin: left top 0;
 	background: transparent;
-	color: #669999;
+	color: #A7C7E7;
 	margin-left: 120px;
 	padding: 10px;
 	text-transform: uppercase;
@@ -723,7 +723,7 @@ figure.effect-julia:hover p {
 	-webkit-transform-origin: left top 0;
 	transform-origin: left top 0;
 	background: transparent;
-	color: #669999;
+	color: #A7C7E7;
 	margin-left: 120px;
 	padding: 10px;
 	text-transform: uppercase;
@@ -824,7 +824,7 @@ figure.effect-julia:hover p {
    padding-bottom: 50px;
    letter-spacing: 2px;
    display: block;
-   color: #669999;
+   color: #A7C7E7;
 }
 
 .text-studio {
@@ -1116,7 +1116,7 @@ figure.effect-julia:hover p {
 
 .speciality-info h3 {
 	margin-top: 20px;
-	color:  #669999;
+	color:  #A7C7E7;
 	text-transform: capitalize;
 	font-size: 22px;
 	font-weight: 700;
@@ -1215,7 +1215,7 @@ figure.effect-julia:hover p {
    padding-bottom: 50px;
    letter-spacing: 2px;
    display: block;
-   color: #669999;
+   color: #A7C7E7;
 }
 
 .text-projectd {
@@ -1306,7 +1306,7 @@ figure.effect-julia:hover p {
 label {
 	font-size: 20px;
 	font-weight: 700;
-	color: #669999;
+	color: #A7C7E7;
 	padding-bottom: 6px;
 }
 
@@ -1331,7 +1331,7 @@ label {
    padding-bottom: 50px;
    letter-spacing: 2px;
    display: block;
-   color: #669999;
+   color: #A7C7E7;
 }
 
 .text-contact {
@@ -1414,7 +1414,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
 @media(max-width: 1024px) {
 
 body {
-  border: 10px solid #669999;
+  border: 10px solid #A7C7E7;
 }
 
 .home-heading, .inner-heading, .inner-heading-team, .inner-projects-heading {
@@ -1497,7 +1497,7 @@ body {
 	-webkit-transform-origin: left top 0;
 	transform-origin: left top 0;
 	background: transparent;
-	color: #669999;
+	color: #A7C7E7;
 	margin-left: 290px;
 	padding: 10px;
 	text-transform: uppercase;
@@ -1547,7 +1547,7 @@ header {
   }
   
 body {
-  border: 10px solid #669999;
+  border: 10px solid #A7C7E7;
 }
 
 figure.effect-julia h2 {
@@ -1609,7 +1609,7 @@ figure.effect-julia p {
 	-webkit-transform-origin: left top 0;
 	transform-origin: left top 0;
 	background: transparent;
-	color: #669999;
+	color: #A7C7E7;
 	margin-left: 290px;
 	padding: 10px;
 	text-transform: uppercase;

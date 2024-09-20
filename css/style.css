@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home-heading span {
-  background-color: #A7C7E7;
+  background-color: #8FB5D6;
   color: white;
   padding: 4px;
 }
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .inner-heading  span {
-  background-color: #A7C7E7;
+  background-color: #8FB5D6;
   color: white;
   padding: 4px;
 }
@@ -287,7 +287,7 @@ h1, h2, h3, h4, h5, h6 {
 .overlay {
     position: fixed;
     display: block; 
-    background: #A7C7E7;
+    background: #8FB5D6;
     top: 0;
     border: 0;
     left: 0;
@@ -506,7 +506,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
 
 .story { 
 	margin-top: 30px;
-	color: #A7C7E7;
+	color: #8FB5D6;
 	font-size: 16px;
 	text-align: left;
 }
@@ -677,7 +677,7 @@ figure.effect-julia:hover p {
 	-webkit-transform-origin: left top 0;
 	transform-origin: left top 0;
 	background: transparent;
-	color: #A7C7E7;
+	color: #8FB5D6;
 	margin-left: 120px;
 	padding: 10px;
 	text-transform: uppercase;
@@ -697,7 +697,7 @@ figure.effect-julia:hover p {
 	-webkit-transform-origin: left top 0;
 	transform-origin: left top 0;
 	background: transparent;
-	color: #A7C7E7;
+	color: #8FB5D6;
 	margin-left: 120px;
 	padding: 10px;
 	text-transform: uppercase;
@@ -798,7 +798,7 @@ figure.effect-julia:hover p {
    padding-bottom: 50px;
    letter-spacing: 2px;
    display: block;
-   color: #A7C7E7;
+   color: #8FB5D6;
 }
 
 .text-studio {
@@ -828,7 +828,7 @@ figure.effect-julia:hover p {
 }
 
  .img-studio {
-    border: 20px #A7C7E7 solid;
+    border: 20px #8FB5D6 solid;
     position: relative;
 	margin-top: 10px;
 }
@@ -968,7 +968,7 @@ figure.effect-julia:hover p {
 }
 
 .inner-heading-team  span {
-  background-color: #A7C7E7;
+  background-color: #8FB5D6;
   color: white;
   padding: 4px;
 }
@@ -1090,7 +1090,7 @@ figure.effect-julia:hover p {
 
 .speciality-info h3 {
 	margin-top: 20px;
-	color:  #A7C7E7;
+	color:  #8FB5D6;
 	text-transform: capitalize;
 	font-size: 22px;
 	font-weight: 700;
@@ -1149,7 +1149,7 @@ figure.effect-julia:hover p {
 }
 
 .inner-projects-heading   span {
-	background-color: #A7C7E7;
+	background-color: #8FB5D6;
 	color: white;
 	padding: 4px;
 }
@@ -1189,7 +1189,7 @@ figure.effect-julia:hover p {
    padding-bottom: 50px;
    letter-spacing: 2px;
    display: block;
-   color: #A7C7E7;
+   color: #8FB5D6;
 }
 
 .text-projectd {
@@ -1267,7 +1267,7 @@ figure.effect-julia:hover p {
 	line-height: 1.42857143;
 	color: #555;
 	background-color: #fff;
-	border: 1px solid #A7C7E7;
+	border: 1px solid #8FB5D6;
 	border-radius: 0;
 	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
 	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
@@ -1280,7 +1280,7 @@ figure.effect-julia:hover p {
 label {
 	font-size: 20px;
 	font-weight: 700;
-	color: #A7C7E7;
+	color: #8FB5D6;
 	padding-bottom: 6px;
 }
 
@@ -1305,7 +1305,7 @@ label {
    padding-bottom: 50px;
    letter-spacing: 2px;
    display: block;
-   color: #A7C7E7;
+   color: #8FB5D6;
 }
 
 .text-contact {
@@ -1388,7 +1388,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
 @media(max-width: 1024px) {
 
 body {
-  border: 10px solid #A7C7E7;
+  border: 10px solid #8FB5D6;
 }
 
 .home-heading, .inner-heading, .inner-heading-team, .inner-projects-heading {
@@ -1471,7 +1471,7 @@ body {
 	-webkit-transform-origin: left top 0;
 	transform-origin: left top 0;
 	background: transparent;
-	color: #A7C7E7;
+	color: #8FB5D6;
 	margin-left: 290px;
 	padding: 10px;
 	text-transform: uppercase;
@@ -1521,7 +1521,7 @@ header {
   }
   
 body {
-  border: 10px solid #A7C7E7;
+  border: 10px solid #8FB5D6;
 }
 
 figure.effect-julia h2 {
@@ -1583,7 +1583,7 @@ figure.effect-julia p {
 	-webkit-transform-origin: left top 0;
 	transform-origin: left top 0;
 	background: transparent;
-	color: #A7C7E7;
+	color: #8FB5D6;
 	margin-left: 290px;
 	padding: 10px;
 	text-transform: uppercase;

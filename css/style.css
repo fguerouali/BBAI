@@ -584,11 +584,13 @@ figure.effect-julia {
 }
 
 figure.effect-julia img {
-    opacity: 0.4; /* Toujours avec l'opacité réduite */
-    -webkit-transform: scale3d(1.1,1.1,1); /* Toujours avec le zoom */
-    transform: scale3d(1.1,1.1,1);
+    opacity: 1; /* Clair par défaut */
+    -webkit-transform: scale3d(1,1,1); /* Pas de zoom par défaut */
+    transform: scale3d(1,1,1);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+    transition: opacity 1s, transform 1s;
 }
 
 figure.effect-julia figcaption {
@@ -605,31 +607,31 @@ figure.effect-julia p {
     display: inline-block;
     margin: 0 0 0.25em;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.9); /* Clair par défaut */
     color: #2f3238;
     text-transform: none;
     font-weight: 400;
     font-size: 18px;
-    opacity: 1; /* Toujours visible */
-    -webkit-transform: translate3d(0, 0, 0); /* Aucune animation */
+    opacity: 1; /* Clair et visible par défaut */
+    -webkit-transform: translate3d(0, 0, 0); /* Pas de déplacement par défaut */
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+/* Effets au survol */
+figure.effect-julia:hover img {
+    opacity: 0.4; /* Plus sombre au survol */
+    -webkit-transform: scale3d(1.1,1.1,1); /* Zoom léger au survol */
+    transform: scale3d(1.1,1.1,1);
+}
+
+figure.effect-julia:hover p {
+    background: rgba(0, 0, 0, 0.7); /* Texte sur fond plus sombre au survol */
+    color: #fff; /* Texte blanc au survol */
+    -webkit-transform: translate3d(0, 0, 0); /* Pas de mouvement */
     transform: translate3d(0, 0, 0);
 }
-
-figure.effect-julia p:first-child,
-figure.effect-julia p:nth-of-type(2),
-figure.effect-julia p:nth-of-type(3) {
-    -webkit-transition-delay: 0s; /* Suppression des délais de transition */
-    transition-delay: 0s;
-}
-
-/* Suppression des effets au survol */
-figure.effect-julia:hover img,
-figure.effect-julia:hover p {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-}
-
 
 /* ----------------------------------------------------
 	MASONRY STYLES

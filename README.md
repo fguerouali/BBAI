@@ -18,4 +18,4 @@
 
 ## Website
 
-Visit our website at [bluebonz.ai](https://bluebonz.ai) for more information on our
+Visit our website at [bluebonz.ai](https://fguerouali.github.io/bbai/) for more information on our
